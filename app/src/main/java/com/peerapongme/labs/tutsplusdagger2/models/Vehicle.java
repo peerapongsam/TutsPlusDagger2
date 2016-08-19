@@ -1,5 +1,7 @@
 package com.peerapongme.labs.tutsplusdagger2.models;
 
+import javax.inject.Inject;
+
 /**
  * Created by peerapong on 8/19/16.
  */
@@ -7,6 +9,7 @@ package com.peerapongme.labs.tutsplusdagger2.models;
 public class Vehicle {
     private Motor motor;
 
+    @Inject
     public Vehicle(Motor motor) {
         this.motor = motor;
     }
