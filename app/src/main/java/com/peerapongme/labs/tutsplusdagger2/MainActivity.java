@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
 
     Vehicle mVehicle;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
